@@ -245,6 +245,7 @@ namespace ReoGrid.Mvvm
             _Worksheet.BeforeCellEdit += Worksheet_BeforeCellEdit;
             _Worksheet.CellDataChanged += Worksheet_CellDataChanged;
             _Worksheet.RangeDataChanged += Worksheet_RangeDataChanged;
+            _Worksheet.BeforePaste += Worksheet_BeforePaste;
             _Worksheet.AfterPaste += Worksheet_AfterPaste;
 
             _Worksheet.RowsHeightChanged += Worksheet_RowsHeightChanged;
@@ -446,6 +447,15 @@ namespace ReoGrid.Mvvm
         {
             RangePosition range = e.Range;
             AddOrUpdateRecords(range);
+        }
+        /// <summary>
+        /// 提前选中区域
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Worksheet_BeforePaste(object sender, BeforeRangeOperationEventArgs e)
+        {
+            _Worksheet.SelectRange(e.Range);
         }
         #endregion
 
