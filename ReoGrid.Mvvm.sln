@@ -1,11 +1,11 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReoGrid.Mvvm", "ReoGrid.Mvvm\ReoGrid.Mvvm.csproj", "{4910C133-FB9E-4AAA-A2D1-23481B437330}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReoGrid.Mvvm", "ReoGrid.Mvvm\ReoGrid.Mvvm.csproj", "{4910C133-FB9E-4AAA-A2D1-23481B437330}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReoGrid.Mvvm.Demo", "ReoGrid.Mvvm.Demo\ReoGrid.Mvvm.Demo.csproj", "{8EE922CE-9E52-4B5B-80E8-63BEC8C8F504}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReoGrid.Mvvm.Demo", "ReoGrid.Mvvm.Demo\ReoGrid.Mvvm.Demo.csproj", "{8EE922CE-9E52-4B5B-80E8-63BEC8C8F504}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{4FF3DB34-8517-4D84-856B-0DEF4A5401F2}"
 EndProject

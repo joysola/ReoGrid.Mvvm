@@ -285,9 +285,9 @@ namespace ReoGrid.Mvvm
             // Exception: Process is terminated due to StackOverflowException.
             // _Worksheet.RowHeaders[e.Index].Height = (ushort)e.Height;
 
-            if (e.Index < _RowHeightList.Count)
+            if (e.Row < _RowHeightList.Count)
             {
-                _RowHeightList[e.Index] = e.Height;
+                _RowHeightList[e.Row] = e.Height;
             }
             else
             {
